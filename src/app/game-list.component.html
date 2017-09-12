@@ -1,7 +1,0 @@
-<ul class="games">
-  <li  *ngFor="let game of games"  (click)="onSelect(game)" [class.selected]="hero === selectedGame">
-    <img src="{{game.jacket}}" alt=""/>
-    <p>{{game.name}} - {{game.price}}</p>
-    <p>{{game.raite}}<p>
-  </li>
-</ul>
